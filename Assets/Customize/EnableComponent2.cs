@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+
 namespace Gamekit2D
 
 {
@@ -17,7 +17,7 @@ namespace Gamekit2D
 
 		void Update()
 		{
-            if (Input.GetKeyDown(KeyCode.Space)) ;
+            if (Input.GetKeyDown(KeyCode.L)) ;
 			{
 				myplayercharacter.enabled = !myplayercharacter.enabled;
 			}
