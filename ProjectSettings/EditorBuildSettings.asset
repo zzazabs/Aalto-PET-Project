@@ -33,11 +33,14 @@ EditorBuildSettings:
     path: Assets/.unity
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scene 1.unity
+    path: Assets/Customize/Scene 1.unity
     guid: d9a938d1f87ac4da582c7c2ae72de37b
   - enabled: 1
     path: Assets/.unity
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/ada.unity
+    path: Assets/Customize/ada.unity
     guid: a2f08c3e4ed08b44f8ee6cdd4f6dbee0
+  - enabled: 1
+    path: Assets/White.unity
+    guid: 11bc630b1184d41aab53c3433f62926c
