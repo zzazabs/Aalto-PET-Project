@@ -4,22 +4,21 @@ namespace Gamekit2D
 
 {
 
-	public class EnableComponent2 : MonoBehaviour
-
-	{
-		private PlayerCharacter myplayercharacter;
+	public class EnableComponent2 : MonoBehaviour   {
+        
+		private CharacterController2D myplayercharacter;
 
 		void Start()
 		{
-			myplayercharacter = GetComponent<PlayerCharacter>();
+			myplayercharacter = GetComponent<CharacterController2D>();
 		}
 
 
 		void Update()
 		{
-            if (Input.GetKeyDown(KeyCode.L)) ;
+            if (Input.GetKey(KeyCode.M)) ;
 			{
-				myplayercharacter.enabled = !myplayercharacter.enabled;
+                myplayercharacter.enabled = !myplayercharacter.enabled;
 			}
 		}
 	}
